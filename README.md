@@ -8,11 +8,6 @@ A full-stack authentication and authorization system built with Next.js, React, 
 - User registration
 - Secure password hashing using bcryptjs
 - Password strength validation
-  - Minimum 8 characters
-  - Uppercase letter
-  - Lowercase letter
-  - Number
-  - Special character
 - User login and logout
 - JWT-based authentication
 - HTTP-only authentication cookies
@@ -45,8 +40,11 @@ Backend:
 - Nodemailer
 
 
-📁 Project Structure
 
+
+## 📁 Project Structure
+
+```text
 src/
 ├── app/
 │   ├── login/
@@ -59,8 +57,7 @@ src/
 │           ├── login/
 │           ├── logout/
 │           ├── me/
-│           ├── verifyemail/
-│           └── ...
+│           └── verifyemail/
 │
 ├── dbConfig/
 │   └── dbConfig.ts
@@ -72,6 +69,7 @@ src/
 │   └── usermodel.ts
 │
 └── middleware.ts
+```
 
 
 🔐 Authentication Flow
@@ -202,18 +200,6 @@ This project was built to understand and implement:
 - Password reset flows
 - Middleware-based route protection
 - Frontend and backend integration
-
-
-📸 Screenshots
-
-Add screenshots of the following pages here:
-
-- Signup
-- Login
-- Email Verification
-- Profile
-- Password Reset
-
 
 🚧 Future Improvements
 
